@@ -1,6 +1,6 @@
 {
-    "name": "drupal/console-fr",
-    "description": "Drupal Console French Language",
+    "name": "drupal/console-ja",
+    "description": "Drupal Console Japanese Language",
     "keywords": ["Drupal", "Console", "Development", "Symfony"],
     "homepage": "http://drupalconsole.com/",
     "type": "drupal-console-language",
