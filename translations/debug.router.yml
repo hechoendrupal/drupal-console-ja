@@ -1,0 +1,18 @@
+description: ルートを表示
+arguments:
+    route-name: ルートの名前
+messages:
+    name: ルールの名前
+    class: クラスパス
+    route: ルート
+    path: パス
+    defaults: デフォルト値
+    requirements: Requirements
+    options: オプション
+examples:
+    -
+        description: 'Displays current routes for the application'
+        execution: 'drupal rod'
+    -
+        description: 'Displays details for the route user.page (/user)'
+        execution: 'drupal rod user.page'

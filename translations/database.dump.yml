@@ -1,7 +1,15 @@
-description: 'データベースの構造とコンテンツをダンプ'
+description: データベースの構造とコンテンツをダンプ
 arguments:
     database: settings.phpのデータベースのキー
 options:
     file: データベースをバックアップするファイル名
+    gz: 'Pass this option if you want the sql result file gzipped'
 messages:
     success: 'データベースをエクスポートしました:'
+examples:
+    -
+        description: 'Dump default database or the one specified on the argument'
+        execution: "drupal database:dump \\\n  <database>"
+    -
+        description: 'Dump in gz compressed format'
+        execution: "drupal database:dump \\\n  --gz"

@@ -1,0 +1,9 @@
+description: 設定ファイル内のKey-Valueペアを表示する
+help: '<info>config:settings:debug</info> コマンドは、設定ファイル内のKey-Valueペアを表示します。'
+welcome: 'Welcome to the Drupal Config Settings Debug command'
+messages:
+    current: 設定ファイル内のKey-Valueペア
+examples:
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

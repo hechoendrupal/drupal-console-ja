@@ -3,6 +3,7 @@ arguments:
     address: IPアドレスとポート番号
 messages:
     executing: 'Executing php from "%s".'
+    listening: 'Listening on "%s".'
 errors:
     binary: サーバーを起動するためのphpが見つかりません。
 examples:

@@ -6,3 +6,10 @@ questions:
     config-name: 編集する設定を選択
 messages:
     no-directory: ディレクトリを作成中にエラーが発生しました。
+examples:
+    -
+        description: 'Edit system cron configurations with "vim" (default editor).'
+        execution: 'drupal config:edit system.cron'
+    -
+        description: 'Edit system cron configurations with "gedit".'
+        execution: 'drupal config:edit system.cron gedit'

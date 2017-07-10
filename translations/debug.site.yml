@@ -1,0 +1,14 @@
+description: 全てのローカルおよびリモートサイトを表示する
+help: '<info>site:debug</info> は全てのローカルおよびリモートサイトを表示します。'
+messages:
+    site: サイト
+    host: ホスト
+    root: ルート
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
+    private-key: 秘密鍵のエラーが発生しました。
+    connect-error: リモートマシンへの接続中にエラーが発生しました。
+    directory-not-found: サイトのローカルディレクトリが見つかりませんでした。
+options:
+    target: Target
+    property: Property

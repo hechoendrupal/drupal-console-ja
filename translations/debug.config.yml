@@ -1,0 +1,15 @@
+description: 現在の設定を表示する
+arguments:
+    name: 設定の名前
+errors:
+    not-exists: '設定 "%s" は存在しません'
+examples:
+    -
+        description: 'List all configuration object names.'
+        execution: 'drupal config:debug'
+    -
+        description: 'Display system site configurations values.'
+        execution: 'drupal config:debug system.site'
+    -
+        description: 'List all system configuration names.'
+        execution: 'drupal config:debug | grep system'

@@ -1,4 +1,4 @@
-description: 'データベースから全てのテーブルを削除'
+description: データベースから全てのテーブルを削除
 help: '<info>database:drop</info> コマンドはデータベースから全てのテーブルを削除します。'
 arguments:
     database: settings.phpのデータベースのキー
@@ -7,3 +7,7 @@ question:
 messages:
     table: テーブル
     table-drop: '"%s" 個のテーブルの削除に成功しました。'
+examples:
+    -
+        description: 'Drop the tables on the database specified on the argument'
+        execution: "drupal database:drop \\\n  <database>\n"

@@ -1,7 +1,12 @@
 description: 外部コマンドを実行する
 arguments:
     bin: 実行するコマンド名
+options:
+    working-directory: 'The current working directory.'
 messages:
     success: コマンドが実行されました
     invalid-bin: コマンドの実行中にエラーが発生しました。
-    missing-bin: 'binオプションを指定してください。'
+    missing-bin: binオプションを指定してください。
+    binary-not-found: 'Unable to find the binary %s to execute.'
+    working-directory: 'Working directory'
+    executing-command: 'Executing command'

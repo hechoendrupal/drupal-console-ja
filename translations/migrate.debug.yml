@@ -1,8 +1,8 @@
-description: マイグレーションを表示
+description: 'Displays current migration available for the application'
 arguments:
-    tag: マイグレーションのタグ
+    tag: 'Migrate tag'
 messages:
-    id: マイグレーションID
-    description: 説明
-    no-migrations: 'マイグレーションが見つかりませんでした。migrate:setup:migrations コマンドを試してください。'
-    tags: タグ
+    id: 'Migration Id'
+    description: Description
+    no-migrations: "There aren't migrations available try to execute command: migrate:setup:migrations"
+    tags: Tags

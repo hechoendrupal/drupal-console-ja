@@ -1,3 +1,7 @@
-description: 'Cronのシステムロックを解放'
+description: Cronのシステムロックを解放
 messages:
     released: Cronのロックの解放に成功しました。
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"

@@ -8,7 +8,10 @@ questions:
 messages:
     invalid-rest-id: 'Rest ID "%s" は不正な値です。'
     formats: 利用可能なシリアライズ形式
+    methods: 'Available methods'
     authentication-providers: 利用可能な認証プロバイダー
-    selected-state: 選択されたステート
+    selected-method: 'Selected Method'
     selected-formats: 選択された形式
     selected-authentication-providers: 選択された認証プロバイダー
+    success: 'Rest ID "%s" enabled'
+    selected-state: 選択されたステート

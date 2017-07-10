@@ -1,0 +1,19 @@
+description: サービスを表示
+arguments:
+    service: サービス名
+    method: 'Method name.'
+    arguments: 'Array of Arguments in CSV or JSON format.'
+messages:
+    service_id: サービスID
+    class_name: クラス名
+    service: サービス
+    class: クラス
+    interface: インターフェース
+    parent: 親クラス
+    variables: 変数
+    methods: メソッド
+    arguments: Arguments
+    method: Method
+    return: Return
+errors:
+    method_not_exists: 'This method doesn''t exists in this service.'
