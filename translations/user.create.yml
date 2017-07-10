@@ -15,10 +15,10 @@ questions:
     status: 'User status (empty to skip)'
 messages:
     user-id: 'User ID'
-    username: 'Username'
-    password: 'Password'
-    email: 'E-mail'
-    roles: 'Roles'
-    created: 'Created'
-    status: 'Status'
+    username: Username
+    password: Password
+    email: E-mail
+    roles: Roles
+    created: Created
+    status: Status
     user-created: 'User "%s" was created successfully'
