@@ -18,3 +18,7 @@ messages:
     invalid-theme-default: defaultオプションは1つのテーマに対してのみ有効です。
     error-default-theme: 'テーマ "%s" はデフォルトテーマのためアンインストールできません。'
     error-admin-theme: 'テーマ "%s" 管理用テーマのためアンインストールできません。'
+examples:
+    -
+        description: 'Uninstall theme specifying the name'
+        execution: "drupal theme:uninstall  mytheme\n"

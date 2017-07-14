@@ -6,3 +6,7 @@ messages:
     description: 説明
     no-migrations: 'マイグレーションが見つかりませんでした。migrate:setup:migrations コマンドを試してください。'
     tags: タグ
+examples:
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

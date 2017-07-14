@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: ルートを再構築しています、少々お待ち下さい。
     completed: ルートの再構築が完了しました。
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

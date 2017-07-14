@@ -1,6 +1,11 @@
 description: テーマの相対パスまたは絶対パスを返す
 arguments:
+    theme: 'Theme name'
     module: 'テーマ名 (システム内部名称)'
 options:
     absolute: 絶対パスを返す
 messages: null
+examples:
+    -
+        description: 'Get the path of mytheme'
+        execution: "drupal theme:path  mytheme\n"

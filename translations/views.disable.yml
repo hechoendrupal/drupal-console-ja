@@ -1,3 +1,10 @@
 description: Viewsを無効化する
 messages:
     disabled-successfully: 'View "%s" は無効化されました。'
+examples:
+    -
+        description: 'Disable content view'
+        execution: "drupal views:disable  content\n"
+    -
+        description: 'Disable frontpage view'
+        execution: "drupal views:disable  frontpage\n"

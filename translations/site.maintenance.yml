@@ -6,3 +6,10 @@ messages:
     maintenance-off: メンテナンスモードをoffにしています。
 errors:
     invalid-mode: modeの値が不正です。
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"

@@ -5,3 +5,7 @@ messages:
     site: サイト
     directory: ディレクトリ
     site-format: 'サイトは次のフォーマットで記載されています: <port>.<domain>.<path>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

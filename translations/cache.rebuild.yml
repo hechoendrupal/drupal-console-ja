@@ -5,6 +5,7 @@ messages:
     welcome: 'Welcome to the cache:rebuild command'
     rebuild: キャッシュを再生成しています、しばらくお待ちください。
     completed: キャッシュのクリアが完了しました。
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: 'キャッシュ "%s" は不正な値です。'
 questions:
     cache: キャッシュを選択

@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: フォームを生成しますか？
         label: ラベルを入力してください
-        machine_name: システム内部名称を入力してください
+        machine-name: 'Input machine name'
         permission: 権限を生成しますか？
         type: タイプ
         invalid: 'フィールドタイプ "%s" は不正な値です。'
@@ -36,6 +36,7 @@ questions:
         weight: 項目のウェイト
         title: タイトル
         fieldset: フィールドセット
+        machine_name: システム内部名称を入力してください
 errors:
     module-dependency: '依存しているモジュール "%s" がインストールされていません。 module:install を使用してインストールしてください。'
     class-name-empty: クラス名を空にすることはできません。

@@ -19,3 +19,10 @@ messages:
     user: ユーザー
     severity: 重要度
     invalid-severity: 重要度のタイプは不正な値です、フィルタは無視されました。
+examples:
+    -
+        description: 'List all the entries on the log'
+        execution: 'drupal debug:database:log'
+    -
+        description: 'List specific log entry by Event ID'
+        execution: "drupal debug:database:log 21228\n"

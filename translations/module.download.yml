@@ -17,6 +17,7 @@ messages:
     error-creating-folder: 'ディレクトリ "%s" の作成中にエラーが発生しました、権限を確認してください。'
     no-composer-repo: '~/.console/config.yml でComposerの設定を行ってください。'
     composer: 'Composerを使用してモジュール "%s" をダウンロードしました。'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download module specifying module name and its path'
+        execution: "drupal module:download  modulename  \\\n  --path=\"modules/contrib\"\n"

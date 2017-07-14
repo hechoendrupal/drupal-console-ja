@@ -13,3 +13,10 @@ messages:
     regions: リージョン
     invalid-theme: 'テーマ "%s" は不正な値です。'
     theme-properties: プロパティ
+examples:
+    -
+        description: 'List of themes on the site'
+        execution: 'drupal debug:theme'
+    -
+        description: 'Bartik theme information'
+        execution: 'drupal debug:theme bartik'
