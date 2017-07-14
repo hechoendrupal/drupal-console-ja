@@ -11,6 +11,8 @@ messages:
     set-environment-placeholders: '環境変数プレースホルダを以下のにセットしてください:'
     missing-inline-placeholders: 'インラインプレースホルダ "%s" が見つかりません。'
     set-inline-placeholders: 'インラインプレースホルダを以下のように指定してください:'
+    select-value-for-placeholder: 'Select value for %s placeholder'
+    enter-value-for-placeholder: 'Enter value for %s placeholder'
     missing_file: 有効なファイルパスを指定してください。
     invalid_file: 'ファイル "%s" が存在しません。'
     module_install: 'module:install コマンドはchain queueの中では実行できません。個別に実行する必要があります。'
