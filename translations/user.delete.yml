@@ -15,3 +15,10 @@ messages:
 errors:
     invalid-user-id: 'ユーザーID "%s" は不正な値です。'
     invalid-user: 'ユーザーID "%s" は不正な値です。'
+examples:
+    -
+        description: 'Delete user specifying the id and the user role'
+        execution: "drupal user:delete  \\\n  --user-id=\"2\"\n  --roles='authenticated'"
+    -
+        description: 'Delete user specifying its id'
+        execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"

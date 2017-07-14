@@ -4,13 +4,16 @@ options:
 questions:
     chain-file: 実行するチェーンファイルを選択してください
 messages:
-    missing_file: 有効なファイルパスを指定してください。
-    invalid_file: 'ファイル "%s" が存在しません。'
-    module_install: 'module:install コマンドはchain queueの中では実行できません。個別に実行する必要があります。'
+    missing-file: 'You must provide a valid file path and name.'
+    invalid-file: 'The file "%s" does not exist.'
+    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
     missing-environment-placeholders: '環境変数プレースホルダ "%s" が見つかりません。'
     set-environment-placeholders: '環境変数プレースホルダを以下のにセットしてください:'
     missing-inline-placeholders: 'インラインプレースホルダ "%s" が見つかりません。'
     set-inline-placeholders: 'インラインプレースホルダを以下のように指定してください:'
+    missing_file: 有効なファイルパスを指定してください。
+    invalid_file: 'ファイル "%s" が存在しません。'
+    module_install: 'module:install コマンドはchain queueの中では実行できません。個別に実行する必要があります。'
 examples:
     -
         description: 'Providing a file option using full path.'

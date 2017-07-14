@@ -6,3 +6,10 @@ options:
     image-style: 画像スタイル名称
 questions:
     image-style: フラッシュする画像スタイルを選択してください
+examples:
+    -
+        description: 'Flush large image style'
+        execution: 'drupal image:styles:flush  large'
+    -
+        description: 'Flush thumbnail image style'
+        execution: "drupal image:styles:flush  thumbnail\n"

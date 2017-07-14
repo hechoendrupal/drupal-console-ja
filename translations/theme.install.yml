@@ -19,3 +19,7 @@ messages:
     theme-default-success: 'テーマ "%s" をインストールし、デフォルトのテーマとして設定しました。'
     disabled-themes: ステータスがuninstalledのテーマのみが自動補完のリストに表示されます。
     invalid-theme-default: defaultオプションは1つのテーマに対してのみ有効です。
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

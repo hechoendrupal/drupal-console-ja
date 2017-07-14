@@ -6,12 +6,18 @@ options:
 messages:
     id: 'Rest ID'
     label: ラベル
-    canonical_url: 'Canonical URL'
+    canonical-url: 'Canonical URL'
     status: ステータス
     provider: プロバイダー
     enabled: Enabled
     disabled: Disabled
     rest-state: 'REST States'
     supported-formats: サポートしているフォーマット
-    supported_auth: サポートしている認証プロバイダー
+    supported-auth: 'Supported Authentication Providers'
     not-found: 'Restリソース "%s" が見つかりませんでした。'
+    canonical_url: 'Canonical URL'
+    supported_auth: サポートしている認証プロバイダー
+examples:
+    -
+        description: 'Displays rest hooks'
+        execution: "drupal debug:rest\n"

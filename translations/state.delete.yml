@@ -5,3 +5,7 @@ messages:
     enter-name: ステートの名前は値を含む必要があります。
     state-not-exists: 'ステート "%s" は存在しません。'
     deleted: 'ステート "%s" の削除に成功しました。'
+examples:
+    -
+        description: 'Delete state specifying the state name'
+        execution: "drupal state:delete  comment.maintain_entity_statistics\n"

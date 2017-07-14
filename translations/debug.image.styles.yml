@@ -3,3 +3,7 @@ messages:
     styles-list: サイトで定義されている画像スタイル
     styles-label: 画像スタイル名称
     styles-name: システム内部名称
+examples:
+    -
+        description: 'List all images styles on the site'
+        execution: "drupal debug:image:styles\n"

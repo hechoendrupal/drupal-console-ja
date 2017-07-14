@@ -26,3 +26,7 @@ messages:
     installing: 'モジュール "%s" をインストールしています。'
     composer: Composerを利用してモジュールをインストールしました。
     error-creating-folder: 'Error creating folder "%s", please check your permissions'
+examples:
+    -
+        description: 'Install module specifying the module name'
+        execution: "drupal module:install  modulename\n"

@@ -3,3 +3,7 @@ messages:
     start: エンティティの更新を開始しています。
     end: エンティティの更新が完了しました。
     error: エンティティの更新でエラーが発生しました。
+examples:
+    -
+        description: 'Update entities'
+        execution: "drupal update:entities\n"
