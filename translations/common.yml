@@ -22,6 +22,9 @@ questions:
         confirm: サービスをコンテナからロードしますか？
         message: "\nサービス名を入力するか、方向キーの上か下を押してください。\nこれはオプションです、<info>次に進む</info>には <info>enter</info> を押してください。\n"
         name: サービス名を入力してください
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: フォームを生成しますか？
         label: ラベルを入力してください
@@ -36,6 +39,7 @@ questions:
         weight: 項目のウェイト
         title: タイトル
         fieldset: フィールドセット
+        new-field: 'Enter a new field properties'
         machine_name: システム内部名称を入力してください
 errors:
     module-dependency: '依存しているモジュール "%s" がインストールされていません。 module:install を使用してインストールしてください。'
@@ -51,3 +55,4 @@ messages:
     drupal-core: 'Drupal Core'
     move-phar: 'Accessing console from anywhere on your system'
     quick-start: Drupalをダウンロード、インストールしてサーバーを起動する
+    available-field-types: 'Available types: <comment>%s</comment>'

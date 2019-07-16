@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'インラインプレースホルダを以下のように指定してください:'
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
     missing_file: 有効なファイルパスを指定してください。
     invalid_file: 'ファイル "%s" が存在しません。'
     module_install: 'module:install コマンドはchain queueの中では実行できません。個別に実行する必要があります。'

@@ -30,6 +30,8 @@ questions:
     test: 'Do you want to generate a unit test class'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Do you want to generate a default Controller'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Warning The following modules are not already available in your local environment "%s"'
 errors:

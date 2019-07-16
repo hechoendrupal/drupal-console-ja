@@ -2,19 +2,21 @@ description: ユーザーを削除
 help: '<info>user:delete</info> コマンドはユーザーを削除します。'
 welcome: 'Welcome to the Drupal user delete'
 options:
-    user-id: 削除するユーザーID
+    user: 'User name/id to be deleted'
     roles: 削除するユーザーに関連付けられたロール
+    user-id: 削除するユーザーID
 questions:
-    user-id: '削除するユーザーID (空の場合はスキップ)'
+    user: 'User name/id to be deleted (empty to skip)'
     roles: 削除するユーザーに関連付けられたロールを選択してください
+    user-id: '削除するユーザーID (空の場合はスキップ)'
 messages:
     user-id: ユーザーID
     username: ユーザー名
     user-deleted: 'ユーザー "%s" は削除されました。'
     users-deleted: 'ロールID: "%s" のユーザーは削除されました。'
 errors:
-    invalid-user-id: 'ユーザーID "%s" は不正な値です。'
     invalid-user: 'ユーザーID "%s" は不正な値です。'
+    invalid-user-id: 'ユーザーID "%s" は不正な値です。'
 examples:
     -
         description: 'Delete user specifying the id and the user role'
@@ -22,3 +24,6 @@ examples:
     -
         description: 'Delete user specifying its id'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"
+    -
+        description: 'Delete users with the role "authenticated"'
+        execution: "drupal user:delete  \\\n  --role=\"authenticated\"\n"

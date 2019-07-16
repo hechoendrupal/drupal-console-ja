@@ -1,6 +1,7 @@
 description: データベースの構造とコンテンツをリストア
 arguments:
     database: settings.phpのデータベースのキー
+    target: 'Database target from settings.php'
 options:
     file: データベースのバックアップファイルの名前
 messages:

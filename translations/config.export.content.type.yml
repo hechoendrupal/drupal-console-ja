@@ -3,12 +3,19 @@ arguments:
     content-type: エクスポートするコンテンツタイプ
 questions:
     content-type: エクスポートするコンテンツタイプ
+    remove-uuid: 'Content Type to be exported without uuid key.'
     optional-config: 'コンテンツタイプをoptional configurationとしてエクスポート'
+    all: 'All content types'
+    remove-config-hash: 'Content type to be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 messages:
     content-type-exported: 'Exporting content type'
     content_type_exported: コンテンツタイプをエクスポートしています。
 options:
     optional-config: 'Export content type as an optional YAML configuration in your module'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
     -
         description: 'Provide a content type  and module name'

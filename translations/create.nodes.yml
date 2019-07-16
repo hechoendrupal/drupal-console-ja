@@ -7,6 +7,7 @@ options:
     limit: 作成するノードの数
     title-words: タイトルに設定するの単語の最大数
     time-range: ノードの作成時刻
+    revision: 'Create revisions'
 questions:
     content-type: 作成するノードのコンテンツタイプを選択してください
     limit: 作成するノードの数を入力してください
@@ -19,6 +20,7 @@ questions:
         - 1週間前
         - 1ヶ月前
         - 1年前
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: ノードID
     content-type: コンテンツタイプ
@@ -26,6 +28,7 @@ messages:
     created: 作成時刻
     invalid-content-types: 'コンテンツタイプ "%s" は不正な値です。'
     created-nodes: '"%s" 個のノードを作成しました。'
+    error: 'Error creating nodes: "%s"'
 examples:
     -
         description: 'Provide the content type name.'
