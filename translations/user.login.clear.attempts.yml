@@ -1,8 +1,9 @@
 description: アカウントのログイン試行履歴をクリア
 help: '<info>user:login:clear:attempts</info> コマンドはアカウントのログイン試行履歴をリセットします。'
-options:
-    user-id: ユーザーID
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: ユーザーIDを入力してください
     numeric-uid: ユーザーIDは整数で入力してください
     invalid-uid: ユーザーIDは1より大きい数値である必要があります

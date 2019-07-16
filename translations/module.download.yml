@@ -5,6 +5,7 @@ options:
     latest: 最新バージョンをダウンロードする
     path: プロジェクトのパス
     composer: Composerを利用してモジュールをダウンロードする
+    unstable: 'Module unstable'
 questions:
     path: プロジェクトのパスを入力してください
 messages:

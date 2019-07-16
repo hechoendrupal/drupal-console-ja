@@ -1,9 +1,11 @@
 description: データベースの構造とコンテンツをダンプ
 arguments:
     database: settings.phpのデータベースのキー
+    target: 'Database target from settings.php'
 options:
     file: データベースをバックアップするファイル名
     gz: 'Pass this option if you want the sql result file gzipped'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'データベースをエクスポートしました:'
 examples:

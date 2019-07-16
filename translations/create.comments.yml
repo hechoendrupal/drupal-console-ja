@@ -28,6 +28,7 @@ messages:
     created: 作成時刻
     invalid-content-types: 'コンテンツタイプ "%s" は不正な値です。'
     created-comments: '"%s" 個のコメントを作成しました。'
+    error: 'Error creating comments: "%s"'
 examples:
     -
         description: 'Provide the node id where the comments will be generated.'

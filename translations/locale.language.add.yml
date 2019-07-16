@@ -1,4 +1,8 @@
 description: サイトでサポートする言語を追加
 messages:
     invalid-language: '言語 "%s" は不正な値です。'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: '言語 "%s" が追加されました。'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

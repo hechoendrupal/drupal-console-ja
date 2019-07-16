@@ -4,10 +4,12 @@ messages:
     site: サイト
     host: ホスト
     root: ルート
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 秘密鍵のエラーが発生しました。
     connect-error: リモートマシンへの接続中にエラーが発生しました。
+    not-sites: 'No sites defined'
     directory-not-found: サイトのローカルディレクトリが見つかりませんでした。
 options:
     target: Target

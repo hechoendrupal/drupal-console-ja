@@ -1,6 +1,7 @@
 description: データベースクライアントを起動
 arguments:
     database: settings.phpのデータベースのキー
+    target: 'Database target from settings.php'
 messages:
     connection: 'Connection: "%s"'
 examples:

@@ -1,6 +1,6 @@
 options:
     env: 環境の名前
-    no-debug: デバッグモードを無効にする
+    debug: 'Switches on debug mode'
     learning: 冗長なコードの出力を行う
     generate-chain: コマンドのオプションと引数をチェーンコマンドとして表示する
     generate-inline: コマンドのオプションと引数をインラインコマンドとして表示する
@@ -17,6 +17,7 @@ options:
     no-ansi: ANSI出力を無効化する
     no-interaction: 対話的な質問を行わない
     check-fix: 見つからない設定の修正を試みる
+    no-debug: デバッグモードを無効にする
 arguments:
     command: 実行するコマンド
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 生成または更新されたファイル
         copied: コピーされたファイル
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "ページを生成するためには、それらのルートを定義する必要があります。\nルートは、URLのパスをコントローラーにマッピングします。\n関数もしくはメソッドが定義されている場合、それらはURLにアクセスにあった時にコールされます。\nユーザーが http://drupal8.dev/{{ route.path }} にアクセスすると、ルーティングシステムはパスからルートを検索します。\nマッチするルートが見つかれば、_controller コールバックが実行されます。\nコールバックのクラスは (\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")、\nメソッドは (\"{{ route.method }}\") として定義されます。"
     autocomplete: "Bash or Zsh: 以下の行ををあなたのシェルの設定ファイルに追加してください:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: シンボリックリンクを作成してください:\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'コマンド "%s" は存在しません。'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: サイトのパス
